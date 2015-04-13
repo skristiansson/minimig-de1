@@ -10,3 +10,11 @@
 # ignore some backup files
 *bak
 
+# ignore fpga build files
+fpga/*/db
+fpga/*/incremental_db
+fpga/*/out
+
+# ignore fw build files
+fw/*/bin
+rel

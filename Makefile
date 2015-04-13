@@ -4,7 +4,7 @@
 
 
 ### board ###
-BOARD?=de1
+BOARD?=de0_nano
 
 
 ### paths ###
@@ -16,7 +16,6 @@ FPGA_DIR=fpga/$(BOARD)
 
 ### files ###
 CTRL_FW=$(CTRL_FW_DIR)/bin/de1_boot.bin
-CTRL_BOOT=$(CTRL_BOOT_DIR)/bin/de1_boot.bin
 FPGA=$(FPGA_DIR)/out/minimig_de1.sof $(FPGA_DIR)/out/minimig_de1.pof
 
 
