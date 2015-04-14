@@ -631,8 +631,8 @@ Minimig1 minimig (
   //I/O
   ._joy1        ({6{1'b1}}/*SJK: Joya*/             ), // joystick 1 [fire2,fire,up,down,left,right] (default mouse port)
   ._joy2        ({6{1'b1}}/*SJK: Joyb*/             ), // joystick 2 [fire2,fire,up,down,left,right] (default joystick port)
-  .mouse_btn1   (key_3            ), // mouse button 1
-  .mouse_btn2   (key_2            ), // mouse button 2
+  .mouse_btn1   (1'b1             ), // mouse button 1
+  .mouse_btn2   (1'b1             ), // mouse button 2
   ._15khz       (_15khz           ), // scandoubler disable
   .msdat        (PS2_MDAT         ), // PS2 mouse data
   .msclk        (PS2_MCLK         ), // PS2 mouse clk
